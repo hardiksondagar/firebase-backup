@@ -1,0 +1,5 @@
+{
+  "name": "Firebase Backup",
+  "description": "Firebase backup and store in txt file",
+  "keywords": ["node", "backup", "firebase"]
+}

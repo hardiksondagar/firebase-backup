@@ -1,0 +1,26 @@
+{
+  "name": "firebase-backup",
+  "version": "0.0.1",
+  "description": "Firebase backup and store in json file",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "npm start"
+  },
+  "engines": {
+    "node": "4.0.0"
+  },
+  "keywords": [
+    "node",
+    "backup",
+    "firebase"
+  ],
+  "author": "Hardik Sondagar",
+  "contributors": [
+    "Hardik Sondagar <hardikmsondagar@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "firebase": "^2.4.0"
+  }
+}
