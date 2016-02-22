@@ -15,7 +15,8 @@ respawn limit 99 5
 script
 
     export HOME="/root"
-    exec /usr/bin/nodejs /var/www/firebase-backup/index.js >> /var/log/firebase-backup.log 2>&1
+    # YOU MUST CHANGE PATH of index.js
+    exec /usr/bin/nodejs /path/to/firebase-backup/index.js >> /var/log/firebase-backup.log 2>&1
 
 end script
 
