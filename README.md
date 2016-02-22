@@ -5,11 +5,14 @@ Firebase data backup using node and store in json file.
 ## Running Locally
 
 Make sure you have [Node.js](http://nodejs.org/) installed.
-You must set `FIREBASE_URL` and `FIREBASE_SECRET` in `index.js`.
 
 ```sh
 git clone https://github.com/hardiksondagar/firebase-backup # or clone your own fork
 cd firebase-backup
+```
+
+You must set `FIREBASE_URL` and `FIREBASE_SECRET` in `index.js`.
+```sh
 mkdir backup
 npm install
 npm start
