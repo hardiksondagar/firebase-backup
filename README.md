@@ -10,6 +10,7 @@ You must set `FIREBASE_URL` and `FIREBASE_SECRET` in `index.js`.
 ```sh
 git clone https://github.com/hardiksondagar/firebase-backup # or clone your own fork
 cd firebase-backup
+mkdir backup
 npm install
 npm start
 ```
