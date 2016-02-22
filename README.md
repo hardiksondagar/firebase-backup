@@ -4,7 +4,7 @@ Firebase data backup using node and store in json file.
 
 ## Running Locally
 
-Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
+Make sure you have [Node.js](http://nodejs.org/) installed.
 You must set `FIREBASE_URL` and `FIREBASE_SECRET` in `index.js`.
 
 ```sh
