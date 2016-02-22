@@ -26,3 +26,7 @@ Set path of index.js in `firebase-backup.conf` ( line #18 )
 cp firebase-backup.conf /etc/init/firebase-backup.conf
 service firebase-backup start
 ```
+### Check log 
+```sh
+tail -f /var/log/firebase-backup.log
+```
