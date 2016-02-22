@@ -30,3 +30,9 @@ service firebase-backup start
 ```sh
 tail -f /var/log/firebase-backup.log
 ```
+
+## Credits
+* [sergiopantoja/firebase-backup-node](https://github.com/sergiopantoja/firebase-backup-node)
+* Keto's [answer](http://stackoverflow.com/a/27957431/2553366) on stackoverflow
+
+
