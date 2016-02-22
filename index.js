@@ -1,8 +1,8 @@
 var https = require('https'),fs = require('fs');
 
 /* Set FIREBASE_URL and FIREBASE_SECRET */
-var FIREBASE_URL = 'https://cozywait.firebaseio.com';
-var FIREBASE_SECRET = 'i6AUg6RA8tgmbFSY3t3zxdrtGR1uHDLxGH6p4iPi';
+var FIREBASE_URL = 'YOUR_FIREBASE_URL';
+var FIREBASE_SECRET = 'YOUR_FIREBASE_SECRET';
 
 function fetchData(){
 
