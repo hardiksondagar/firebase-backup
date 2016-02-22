@@ -28,7 +28,7 @@ function backup(data) {
 }
 
 function getFileName(format){
-	return 'backup/'+(new Date().toISOString().replace(/T/, ' ').replace(/\..+/, ''))+'.'+format;
+        return __dirname+'/backup/'+(new Date().toISOString().replace(/T/, ' ').replace(/\..+/, ''))+'.'+format;
 }
 
 function writeToFile(filename,data){
